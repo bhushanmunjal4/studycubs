@@ -22,7 +22,7 @@ const Hero = () => {
       {/*Content section */}
       <div className="relative z-20 container mx-auto px-6 md:px-12 flex flex-col-reverse md:flex-row items-center justify-center min-h-[600px] h-full">
         {/* Text Content */}
-        <div className="md:w-1/2 text-center relative top-[50] md:top-0 md:text-left">
+        <div className="md:w-1/2 text-center relative top-[50px] md:top-0 md:text-left">
           <h2 className=" md:w-[350px] text-2xl text-[#17254E] md:text-5xl font-bold leading-[1.3]">
             The Best Place To Learn, Play and Grow
           </h2>
@@ -52,7 +52,7 @@ const Hero = () => {
               <Image src={Boy} alt="Boy" layout="fill" objectFit="cover" />
             </div>
             {/* Bottom label */}
-            <div className="absolute -bottom-[100] flex bg-white px-6 py-3 rounded-full shadow-[0px_0px_11px_1px_rgba(0,_0,_0,_0.1)] text-xs text-[#2AB7CA]">
+            <div className="absolute -bottom-[100] top-[250px] flex bg-white px-6 py-3 rounded-full shadow-[0px_0px_11px_1px_rgba(0,_0,_0,_0.1)] text-xs text-[#2AB7CA]">
               <p className="flex-col mr-2">
                 1k+
                 <span className="flex text-black">Student</span>
@@ -81,7 +81,7 @@ const Hero = () => {
               <Image src={Girl} alt="Girl" layout="fill" objectFit="cover" />
             </div>
             {/* Top label */}
-            <div className="absolute -top-[130] flex-col bg-white px-6 py-3 rounded-full shadow-[0px_0px_11px_1px_rgba(0,_0,_0,_0.1)] text-xs text-[#FF9E0E]">
+            <div className="absolute bottom-[250px] -top-[130] flex-col bg-white px-6 py-3 rounded-full shadow-[0px_0px_11px_1px_rgba(0,_0,_0,_0.1)] text-xs text-[#FF9E0E]">
               100+
               <span className="flex text-black">Public Speakers</span>
             </div>
