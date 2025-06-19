@@ -76,13 +76,13 @@ export default function Navbar() {
             >
               Courses
             </Link>
-            <Link
+            {/* <Link
               href="/contact"
               className="hover:text-gray-300 text-xs font-regular"
               onClick={() => trackNavigation.contact()}
             >
               Contact
-            </Link>
+            </Link> */}
             <Link
               href="/#about"
               className="hover:text-gray-300 text-xs font-regular"
@@ -112,9 +112,9 @@ export default function Navbar() {
             <Link href="/#our-courses" className="hover:text-gray-300">
               Courses
             </Link>
-            <Link href="/contact" className="hover:text-gray-300">
+            {/* <Link href="/contact" className="hover:text-gray-300">
               Contact
-            </Link>
+            </Link> */}
             <Link href="/#about" className="hover:text-gray-300">
               About
             </Link>

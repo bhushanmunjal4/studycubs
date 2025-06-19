@@ -58,13 +58,13 @@ export const trackNavigation = {
     });
   },
 
-  contact: () => {
-    trackCustomEvent("ViewContent", {
-      content_type: "navigation",
-      content_name: "Contact Page",
-      content_category: "contact_info",
-    });
-  },
+  // contact: () => {
+  //   trackCustomEvent("ViewContent", {
+  //     content_type: "navigation",
+  //     content_name: "Contact Page",
+  //     content_category: "contact_info",
+  //   });
+  // },
 
   about: () => {
     trackCustomEvent("ViewContent", {
