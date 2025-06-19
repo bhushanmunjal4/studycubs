@@ -52,7 +52,7 @@ const Hero = () => {
               <Image src={Boy} alt="Boy" layout="fill" objectFit="cover" />
             </div>
             {/* Bottom label */}
-            <div className="absolute -bottom-[100] top-[250px] flex bg-white px-6 py-3 rounded-full shadow-[0px_0px_11px_1px_rgba(0,_0,_0,_0.1)] text-xs text-[#2AB7CA]">
+            <div className="absolute -bottom-[100] left-[-20px] top-[250px] flex bg-white px-6 py-3 rounded-full shadow-[0px_0px_11px_1px_rgba(0,_0,_0,_0.1)] text-xs text-[#2AB7CA]">
               <p className="flex-col mr-2">
                 1k+
                 <span className="flex text-black">Student</span>
